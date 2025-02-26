@@ -9,7 +9,7 @@ templates = Jinja2Templates(directory="static")
 # http://192.168.1.130:8000/
 @app.get("/")
 async def read_root():
-    return {"Hello": "World"}
+    return {"Ayla": "Naci"}
 
 # http://192.168.1.130:8000/site
 @app.get("/site", response_class=HTMLResponse)
